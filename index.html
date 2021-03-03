@@ -12,7 +12,7 @@
 <body>
     <!-- NAVBAR from https://getbootstrap.com/ -->
      <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="index.html"><img src="./NicePng.png" alt="">Car Club</a>
+        <a class="navbar-brand" href="index.html"><img src="./assets/img/NicePng.png" alt="CarClub logo">Car Club</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,15 +39,38 @@
 
         </div>
   
-        <!-- Modal -->
+        <!-- Menu Modal -->
         <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="menuModalLabel">Menu</h5>
+                        <h5 class="modal-title m-auto" id="menuModalLabel">Menu</h5>
                     </div>
-                    <div class="modal-body">
-                    ...
+                    <div class="modal-body m-auto">
+                        <div class="row">
+                            <button type="button" class="btn btn-secondary my-btn m-1" data-toggle="modal" data-target="#newGameModal">New game</button>                           
+                          </div>
+                          <div class="row">
+                            <button type="button" class="btn btn-secondary my-btn m-1" data-toggle="modal" data-target="#howToModal">How to play</button>                           
+                          </div><div class="row">
+                            <button type="button" class="btn btn-secondary my-btn m-1" data-toggle="modal" data-target="#topScoreModal">Top Score</button>                           
+                          </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Menu Modal -->
+        <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title m-auto" id="menuModalLabel">Menu</h5>
+                    </div>
+                    <div class="modal-body m-auto">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#newGameModal">New game</button>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#topPlayersModal">Top players</button>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#howToModal">How to play</button>
                     </div>
                     
                 </div>
