@@ -9,7 +9,7 @@ body, html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/www.pexels.com--photo--photo-of-car-on-expressway-3422964.jpg");
 
   /* Set a specific height */
-  height: 90%;
+  height: 86%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -29,11 +29,11 @@ body, html {
 }
 
 nav {
-    height: 5%;
+    /*height: 7%;*/
     background-color: #885445;
 }
 footer {
-    height: 5%;
+    height: 7%;
     background-color: #885445;
 }
 footer img {
