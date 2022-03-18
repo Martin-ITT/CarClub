@@ -16,7 +16,7 @@
 ### Full Stack Web Development Course
 ### Milestone Project 2 - Interactive Frontend Development
 --------------------------------------
-![The Car Club](img/Capture.JPG "The Car Club")
+![The Car Club](assets/img/Capture.JPG "The Car Club")
 
 The idea to create a car logos memory game *The Car Club* came from my son who explores and learnes car makes while outside on a walk. To make this project more attractive for everyone I was looking for an API which would fetch different logos from manufacturers all over the world for each game.
 
